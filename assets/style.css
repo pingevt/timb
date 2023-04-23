@@ -67,9 +67,13 @@ main {
   margin-left: 2vw;
 }
 
+.m_logo {
+  max-width: 100px;
+}
+
 .p_logo {
-  max-width: 200px;
-  margin-right: 2vw;
+  max-width: 175px;
+  /* margin-right: 2vw; */
 }
 
 .qr-code {
