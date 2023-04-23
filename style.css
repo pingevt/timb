@@ -1,0 +1,95 @@
+:root {
+  --c-black: #464852;
+  --c-white: #ffffff;
+  --c-blue: #0c60a5;
+  --c-red: #af2d38;
+}
+
+body {
+  background-color: #F7F7F7;
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+
+  text-align: center;
+
+  color: var(--c-black);
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+p.bold {
+  font-weight: 700;
+}
+
+a {
+  color: var(--c-blue);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 5px 25px;
+  margin-bottom: 2em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
+}
+
+main {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-left: 2vw;
+}
+
+.p_logo {
+  max-width: 200px;
+  margin-right: 2vw;
+}
+
+.qr-code {
+  width: 90%;
+  max-width: 300px;
+  margin-top: 1rem;
+}
+
+.c-record {
+  max-width: 90%;
+  padding: 5%;
+  background: var(--c-white);
+  text-align: left;
+  margin: 0 auto 1rem;
+}
+
+.c-record:first-of-type {
+  margin-top: 1.3rem;
+}
+
+.c-record h2 {
+  margin-top: 0;
+}
